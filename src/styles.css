@@ -1,0 +1,31 @@
+/* src/styles.css */
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background: #f7f7f7;
+}
+
+.date-picker,
+.grid,
+.admin-panel {
+  margin: 20px 0;
+}
+
+.time-slot {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+.time-slot.booked {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+hr {
+  margin: 30px 0;
+}
